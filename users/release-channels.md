@@ -5,7 +5,7 @@ Official binary releases of Android Password Store are available through 4 diffe
 - [Play Store]
 - [GitHub Releases]
 
-Play Store and GitHub Release always contain the latest stable release as built by our CI infrastructure.
+Play Store and GitHub Releases always contain the latest stable release as built by our CI infrastructure. GitHub Releases contains both the `free` and `nonFree` variants, of which the `nonFree` variant then gets uploaded to the Play Store (refer to [build types] for what `free` and `nonFree` mean for you).
 
 - [F-Droid]
 
