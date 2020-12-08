@@ -8,4 +8,4 @@ Below are the feature differences between the `free` and `nonFree` build variant
 
 Feature | `free` | `nonFree`
 ----------------------|--------|----------
-Autofill from SMS OTP | ❌ | ✅
+[Autofill OTPS from SMSes](https://msfjarvis.dev/aps/pr/900) | ❌ | ✅
