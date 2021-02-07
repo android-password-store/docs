@@ -8,6 +8,6 @@ If you're still unable to find something, ask us! We have a [discussions] sectio
 
 If you don't want to write code, that's even better! Password Store's documentation is in a rather sad state, and user contributed documentation will go a long way in fixing that. Send a PR to the [docs] repository adding a new page on a topic that's not already covered and we'd be more than happy to accept your contribution.
 
-[labelling system]: /maintainers/labelling
+[labelling system]: /docs/maintainers/labelling
 [discussions]: https://github.com/android-password-store/Android-Password-Store/discussions
 [docs]: https://github.com/android-password-store/docs
