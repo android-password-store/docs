@@ -1,6 +1,6 @@
 # Contributor documentation
 
 
-- [Finding your first target] : In an unfamiliar project, it can be hard to find ways to contribute. Thankfully, we have you covered!
+- [Finding ways to contribute] : In an unfamiliar project, it can be hard to get started contributing. Thankfully, we have you covered!
 
-[finding your first target]: finding-things-to-do
+[Finding ways to contribute]: finding-things-to-do
