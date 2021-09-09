@@ -8,6 +8,6 @@ This repository contains relevant docs for [maintainers], [contributors] and [us
 
 This repository's contents are licensed under the Creative Commons CC0-1.0 license.
 
-[maintainers]: maintainers
-[contributors]: contributors
-[users]: users
+[maintainers]: maintainers josejunioroliveira174@gmail.com 
+[contributors]: contributors josejunioroliveira174@gmail.com 
+[users]: users josejunioroliveira174@gmail.com 
