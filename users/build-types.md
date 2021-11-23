@@ -9,3 +9,7 @@ Below are the feature differences between the `free` and `nonFree` build variant
 Feature | `free` | `nonFree`
 ----------------------|--------|----------
 [Autofill OTPs from SMSes](https://msfjarvis.dev/aps/pr/900) | ❌ | ✅
+
+## Building
+
+For more information on how to build these variants, see the [contribution guidelines](https://github.com/android-password-store/Android-Password-Store/blob/develop/CONTRIBUTING.md#building-the-project)
