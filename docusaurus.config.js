@@ -24,7 +24,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/DevanshBajaj/APS-Docs/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -64,15 +64,15 @@ const config = {
             items: [
               {
                 label: 'Contributors',
-                to: '/docs/Contributors/',
+                to: '/docs/contributors/',
               },
               {
                 label: 'Maintainers',
-                to: '/docs/Maintainers/',
+                to: '/docs/maintainers/',
               },
               {
                 label: 'Users',
-                to: '/docs/Users/',
+                to: '/docs/users/',
               },
             ],
           },
