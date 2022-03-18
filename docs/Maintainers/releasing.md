@@ -8,7 +8,7 @@ The central [Android-Password-Store] repository houses three subprojects that ar
 
 ## Library modules
 
-The `autofill-parser` and `openpgp-ktx` libraries are available on the [APS JCenter] repository. The process for creating a new release is as follows:
+The `autofill-parser` and `openpgp-ktx` libraries are available on the [MavenCentral] repository. The process for creating a new release is as follows:
 
 1. Bump the version number for the library in `$projectDir/gradle.properties`
 
@@ -29,6 +29,6 @@ Releasing a new major version of the app is a slightly more involved process.
 5. The maintainer in charge of Play Store deployment then takes the generated binaries from this GitHub release and uploads them to Play Store. In the future this manual step should be eliminated in favour of a Gradle-backed automatic deployment setup, using tools like [Gradle-Play-Publisher].
 
 [android-password-store]: https://github.com/android-password-store/Android-Password-Store
-[aps jcenter]: https://bintray.com/android-password-store
+[mavencentral]: https://search.maven.org/search?q=g:%22com.github.android-password-store%22
 [gradle-play-publisher]: https://github.com/Triple-T/gradle-play-publisher
 [milestone]: https://github.com/android-password-store/Android-Password-Store/milestones
