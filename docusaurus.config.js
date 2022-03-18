@@ -23,7 +23,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/android-password-store/docs/tree/docusaurus/',
+          editUrl: 'https://github.com/android-password-store/docs/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
