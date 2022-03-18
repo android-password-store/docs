@@ -13,7 +13,7 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'android-password-store', // Usually your GitHub org/user name.
-  projectName: 'APS-Docs', // Usually your repo name.
+  projectName: 'docs', // Usually your repo name.
 
   presets: [
     [
@@ -23,7 +23,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/DevanshBajaj/APS-Docs/tree/main/',
+          editUrl: 'https://github.com/android-password-store/docs/tree/docusaurus/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
