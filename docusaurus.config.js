@@ -84,15 +84,6 @@ const config = {
               },
             ],
           },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/android-password-store',
-              },
-            ],
-          },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Android Password Store. Built with Docusaurus.`,
       },
