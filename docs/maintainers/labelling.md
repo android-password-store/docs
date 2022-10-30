@@ -32,12 +32,15 @@ Indicates the priority of an issue or pull request. Issues marked with `P-high` 
 
 Shows the current status of the issue or pull request. This is a fairly involved group and embodies the different states of issues and pull requests.
 
-- `S-awaiting-triage`: Automatically applied to new issues to indicate that a maintainer needs to take a look at them.
-- `S-blocked`: Applicable for issues or pull requests that have external dependencies and cannot move forward until they're resolved.
-- `S-design`: Applied to issues or PRs that are stumped on a technical challenge where no solution exists or current options are not satisfactory.
-- `S-needs-reproduction-steps`: Applied to issues where maintainers have been unable to reproduce the bug in their environments.
-- `S-waiting-for-comment`: Automatically applied to RFCs that need to be given a first review.
-- `S-waiting-on-author`: Applied to pull requests that have been reviewed and now need the author to make changes.
-- `S-waiting-on-reporter`: Applied to issues where the reporter of the bug needs to offer additional information.
-- `S-waiting-on-review`: Applied to pull requests that need to be reviewed.
-- `S-wontfix`: Applied to issues that contain proposals which have been rejected or contain a bug description that is intended behavior.
+- `S-automerge`: Automated pull requests that will merge themselves without human intervention
+- `S-awaiting-triage`: New issues that need to be assessed by a maintainer.
+- `S-blocked`: Issues or pull requests that have external dependencies and cannot move forward until they're resolved.
+- `S-design`: Issues or PRs that are stumped on a technical challenge where no solution exists or current options are not satisfactory.
+- `S-invalid`: Invalid issues such as ones that do not follow the issue template or 
+- `S-needs-reproduction-steps`: Maintainers have been unable to reproduce the bug in their environments.
+- `S-waiting-for-comment`: Applied to RFCs that need to arrive at a consensus from other maintainers.
+- `S-waiting-on-author`: Pull requests that have been reviewed and now need the author to make changes.
+- `S-waiting-on-reporter`: Issues where the reporter of the bug has been asked for additional information.
+- `S-waiting-on-review`: Applied to pull requests that are currently unreviewed.
+- `S-wontfix`: Issues that contain rejected proposals or contain a bug description that is intended behavior.
+- `S-unactionable`: There is not enough information to act on this problem
