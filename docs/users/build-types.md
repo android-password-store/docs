@@ -9,6 +9,7 @@ Below are the feature differences between the `free` and `nonFree` build variant
 Feature | `free` | `nonFree`
 ----------------------|--------|----------
 [Autofill OTPs from SMSes](https://msfjarvis.dev/aps/pr/900) | ❌ | ✅
+Error reporting via [Sentry](https://sentry.io/) | ❌ | ✅
 
 ## Building
 
