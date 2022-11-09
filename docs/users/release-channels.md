@@ -19,5 +19,5 @@ These are builds that are generated on each push to the development branch of AP
 [play store]: https://play.google.com/store/apps/details?id=dev.msfjarvis.aps
 [github releases]: https://github.com/Android-Password-Store/Android-Password-Store/releases
 [f-droid]: https://f-droid.org/en/packages/dev.msfjarvis.aps
-[build types]: build-types
+[build types]: /docs/users/build-types
 [snapshot builds]: https://github.com/android-password-store/Android-Password-Store/releases/tag/latest
