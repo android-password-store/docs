@@ -8,6 +8,7 @@ This is a work-in-progress effort to document things relevant to Password Store 
 - [Importing from other password managers] : How to migrate to `pass`
 - [Invalid GPG key ID] : Why this error happens and how you can fix it
 - [Release channels] : Different ways to get prebuilt binaries of APS
+- [Reporting bugs] : Helpful information on how to craft good bug reports
 
 [Autofill]: autofill
 [build types]: build-types
@@ -15,3 +16,4 @@ This is a work-in-progress effort to document things relevant to Password Store 
 [invalid gpg key id]: invalid-gpg-key-id
 [importing from other password managers]: importing
 [background killing bugs]: background-killing-bugs
+[reporting bugs]: reporting-bugs
