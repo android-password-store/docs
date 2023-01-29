@@ -1,6 +1,6 @@
-# Build Types
+# Build types
 
-APS can optionally bundle proprietary code through Google Play Services to add extra functionality, making it FOSS-incompatible.
+APS can optionally bundle additional code that is either proprietary or typically frowned upon within the FOSS community (like telemetry) to provide user-facing features and assist development efforts through anonymized usage data.
 
 To counter that, and continue providing FOSS-only binaries through F-Droid, APS implements the `free` and `nonFree` (free as in freedom) build types to allow the same codebase to be able to generate both FOSS-friendly binaries as well as ones with optional proprietary code that enables extra features.
 
