@@ -7,7 +7,7 @@ When submitting a bug report, it is often helpful to include a log. The followin
   - If it is 2.0.0-SNAPSHOT, replace `PKG` with `app.passwordstore`
 - Download the Android Platform Tools from [here](https://developer.android.com/studio/releases/platform-tools) and extract them into a directory
 - Enable developer options on your device and turn on USB debugging by following [these steps](https://developer.android.com/studio/debug/dev-options)
-- Enable debug logging for Password Store by going to Settings > Misc
+- Enable debug logging for Password Store by going to Settings > Misc (or scrolling to the bottom of the Settings page on version 1.13.5)
 - Open a new terminal in the directory where you extracted the platform tools
 - Run `./adb shell am force-stop PKG` to close the app
 - Launch the app again and replicate the issue
