@@ -4,7 +4,7 @@ When you are installing APS you can encounter some issues based on your setup, t
 
 ## OpenKeychain failed to launch
 
-Many OEMs create excessive limitations on background apps to "improve" battery life by breaking normal functionality, the workarounds for those are described [here](https://docs.passwordstore.app/docs/users/background-killing-bugs).
+Many OEMs create excessive limitations on background apps to "improve" battery life by breaking normal functionality, the workarounds for those are described [here](./background-killing-bugs.md).
 
 
 # "Error reading input data" [#2653](https://github.com/android-password-store/android-password-store/issues/2653), [#2179](https://github.com/android-password-store/android-password-store/issues/2179)
