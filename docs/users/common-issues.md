@@ -34,3 +34,10 @@ $ pass init <key-id>
 This issue caused by option "throw-keyids" which isn't supported by OpenKeychain. To resolve this, you can disable it in two ways:
   1. Reinit your password storage by command with disabling option "throw-keyids" `PASSWORD_STORE_GPG_OPTS="--no-throw-keyids" pass init $KEYID`
   2. Edit your gpg config and set `--no-throw-keyids` in it.
+
+## GnuPG AEAD encryption [#2974](https://github.com/android-password-store/android-password-store/issues/2974) [#2963](https://github.com/android-password-store/android-password-store/issues/2963) [#2921](https://github.com/android-password-store/android-password-store/issues/2921) [#2924](https://github.com/android-password-store/android-password-store/issues/2924) [#2653](https://github.com/android-password-store/android-password-store/issues/2653) [#2461](https://github.com/android-password-store/android-password-store/issues/2461) [#2586](https://github.com/android-password-store/android-password-store/issues/2586) [#2179](https://github.com/android-password-store/android-password-store/issues/2179)
+
+The developers of GnuPG introduced a non-standard modification to OpenPGP which results in keys generated with recent versions of GnuPG not being compatible with other OpenPGP implementations, including the one used by Android Password Store. The app will attempt to detect this both in your PGP key as well as password files and warn about this incompatibility. To fix this, you can edit your key to remove the non-standard AEAD feature and re-encrypt the store.
+
+1. Run `gpg --edit-key <key id>`, followed by `setpref SHA512 SHA384 SHA256 SHA224 SHA1 AES256 AES192 AES ZLIB BZIP2 ZIP Uncompressed` and `quit` to fix your key.
+2. Run `pass init <key id>` to re-encrypt your password store and fix your password files.
